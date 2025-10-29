@@ -38,4 +38,6 @@ def initialize_browser(request, browser):
         driver.quit()
     request.addfinalizer(deinit_browser)
 
+    driver.navigate().to("https://practice-automation.com/")
+
     return driver

@@ -1,19 +1,13 @@
 # VolgaIT 2025: QA
 
-## Подготовка к запуску
+![Cat](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTRybzlrN2U4MzRqcDIwbDBodnBhM3V6aGV0YWRkY3NsMzIxb3c5ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VTUnJC8LnVqUlNq1Nl/giphy.gif)
 
-### Windows powershell:
+## Подготовка к запуску
 ```shell
-./.venv/Scripts/activate.ps1
-python -m pip install -r requirements.txt
-```
-### *nix(sh | bash | zsh):
-```shell
-./.venv/Scripts/activate.sh
 python -m pip install -r requirements.txt
 ```
 ## Запуск
-Чтобы выбрать браузер укажите аргумент `--browser %chrome | firefox%` (по умолчанию chrome).
+Чтобы выбрать браузер, укажите аргумент `--browser %chrome | firefox%` (по умолчанию chrome).
 
 Запуск производится через утилиту `pytest tests/ --alluredir report/`, либо `pytest tests/ --browser firefox --alluredir report/`.
 Затем выполните команду `python -m allure serve report/`
