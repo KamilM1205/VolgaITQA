@@ -5,6 +5,8 @@ from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.common.by import ByType
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support.wait import WebDriverWait
+
+# noinspection PyPep8Naming
 from selenium.webdriver.support import expected_conditions as EC
 
 class BasePage(object):
