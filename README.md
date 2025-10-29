@@ -1,0 +1,44 @@
+# VolgaIT 2025: QA
+
+## Подготовка к запуску
+
+### Windows powershell:
+```shell
+./.venv/Scripts/activate.ps1
+python -m pip install -r requirements.txt
+```
+### *nix(sh | bash | zsh):
+```shell
+./.venv/Scripts/activate.sh
+python -m pip install -r requirements.txt
+```
+## Запуск
+Чтобы выбрать браузер укажите аргумент `--browser %chrome | firefox%` (по умолчанию chrome).
+
+Запуск производится через утилиту `pytest tests/ --alluredir report/`, либо `pytest tests/ --browser firefox --alluredir report/`.
+Затем выполните команду `python -m allure serve report/`
+
+## Тестовый сценарий
+1. Открыть веб-приложение
+   1. Открыть веб-браузер.
+   2. Открыть URL главной страницы.
+2. Протестировать `"JavaScript Delays"`
+   1. Найти ссылку перехода на страницу.
+   2. Открыть страницу.
+   3. Найти кнопку запуска таймера.
+   4. Нажать на кнопку.
+   5. Подождать 10 секунд.
+   6. Проверить что появилась надпись "Litoff"
+   7. Вернуться на главную страницу
+3. Протестировать `"Form Fields"`
+   1. Найти кнопку "Submit".
+   2. Нажать её и проверить, что фокус переходит на поле "Name".
+   3. Заполнить поле "Name".
+   4. Заполнить поле "Password".
+   5. Нажать на checkbox'ы.
+   6. Проверить состояние checkbox'ов.
+   7. Нажать на них повторно.
+   8. Проверить их состояние.
+   9. Поочереди нажимать radiobutton'ы и проверять отжатие предыдущих.
+   10. 
+4. Протестировать `"Popups"`
