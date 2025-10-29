@@ -1,6 +1,6 @@
 # VolgaIT 2025: QA
 
-![Cat](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTRybzlrN2U4MzRqcDIwbDBodnBhM3V6aGV0YWRkY3NsMzIxb3c5ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/VTUnJC8LnVqUlNq1Nl/giphy.gif)
+![Cat](assets/giphy.gif)
 
 ## Подготовка к запуску
 ```shell

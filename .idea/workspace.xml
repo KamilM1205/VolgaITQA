@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="669cd897-16bf-442d-bda0-75527193f90c" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/utils/pages/pa_home_page.py" afterDir="false" />
+    <list default="true" id="669cd897-16bf-442d-bda0-75527193f90c" name="Changes" comment="feat(volgait.py): added navigation to main page.&#10;feat(pages/pa_home_page.py): Added class.&#10;feat(locators/pa_home_page.py): added enum with one element.&#10;feat(pages/base_page.py): added base class for pages with methods for work with site.&#10;fix(README.md): added comma.&#10;feat(README.md):&#10;added gif animation.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/locators/pa_home_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/locators/pa_home_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/pages/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/volgait.py" beforeDir="false" afterPath="$PROJECT_DIR$/volgait.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1761730360823</updated>
-      <workItem from="1761730374654" duration="20090000" />
+      <workItem from="1761730374654" duration="21013000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -95,7 +90,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761756057879</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat(volgait.py): added navigation to main page.&#10;feat(pages/pa_home_page.py): Added class.&#10;feat(locators/pa_home_page.py): added enum with one element.&#10;feat(pages/base_page.py): added base class for pages with methods for work with site.&#10;fix(README.md): added comma.&#10;feat(README.md):&#10;added gif animation.">
+      <option name="closed" value="true" />
+      <created>1761764195680</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1761764195680</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="feat(volgait.py): added navigation to main page.&#10;feat(pages/pa_home_page.py): Added class.&#10;feat(locators/pa_home_page.py): added enum with one element.&#10;feat(pages/base_page.py): added base class for pages with methods for work with site.&#10;fix(README.md): added comma.&#10;feat(README.md):&#10;added gif animation." />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(volgait.py): added navigation to main page.&#10;feat(pages/pa_home_page.py): Added class.&#10;feat(locators/pa_home_page.py): added enum with one element.&#10;feat(pages/base_page.py): added base class for pages with methods for work with site.&#10;fix(README.md): added comma.&#10;feat(README.md):&#10;added gif animation." />
   </component>
 </project>
