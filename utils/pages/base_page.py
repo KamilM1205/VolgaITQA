@@ -14,6 +14,7 @@ class BasePage(object):
     Base class for pages.
     Contains methods to wait elements.
     """
+
     def __init__(self, driver: WebDriver):
         self.driver = driver
 
