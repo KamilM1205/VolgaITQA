@@ -22,7 +22,7 @@ def browser(request):
 def initialize_browser(request, browser):
     """
     Initialize selenium webdriver
-    :param request: pytest's FixtureRequest object
+    :param request: Pytest's FixtureRequest instance
     :param browser: selected browser name(firefox or chrome)
     :return: webdriver
     """
